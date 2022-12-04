@@ -3,8 +3,8 @@ from telegram import Bot
 from telegram.ext import Updater, CommandHandler, MessageHandler, Conversationhandler, Filters
 from log import get_id_user, get_input_data, get_result, save_log
 
-bot = Bot(token='')
-updater = Updater(token='')
+bot = Bot(token='5983929855:AAEau7gLvbrzJXkPkhyLFT513mNcNhInrZc')
+updater = Updater(token='5983929855:AAEau7gLvbrzJXkPkhyLFT513mNcNhInrZc')
 dispatcher = updater.dispatcher
 
 start_calc = 0
